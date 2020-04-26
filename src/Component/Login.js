@@ -21,7 +21,7 @@ export const Login = () => {
     e.preventDefault();
     setuser(prevmovies => [
       ...prevmovies,
-      { Email: Email, Password: Password }
+      { Email: Email, Password: Password, ids: "true" }
     ]);
   };
   return (

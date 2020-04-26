@@ -12,7 +12,7 @@ const Validation = () => {
         <Dashboard
           Email={values.Email}
           Password={values.Password}
-          key={values.Id}
+          ids={values.ids}
         />
       ))}
     </div>

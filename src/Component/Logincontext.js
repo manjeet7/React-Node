@@ -7,7 +7,7 @@ export const Detailprovider = props => {
     {
       Email: "",
       Password: "",
-      Id: true
+      ids: ""
     }
   ]);
   return (
